@@ -9,7 +9,6 @@ class FRange:
         self.stop = stop
         self.step = step
 
-
     def __iter__(self):
         self.value = self.start - self.step
         return self
